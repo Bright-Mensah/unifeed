@@ -1,0 +1,62 @@
+/* subscribe button */
+/* .sub{
+    background-color: orange;
+    color: black;
+    font-weight: 800;
+    border-radius: 5%;
+    border: 1px solid orange;
+} */
+
+.main-article-img{
+    width: 20vw;
+    height: 28vh;
+  
+}
+
+.avatar{
+    width: 4vw;
+    height: 9vh;
+    margin-right:10px;
+}
+
+
+.details{
+    line-height: 0.3rem;
+}
+
+.details >h5{
+    font-size: 1.0rem;
+    font-weight: 800;
+}
+
+.section{
+    margin-left: -200px;
+}
+
+.section> h4{
+    font-weight: 600;
+    
+}
+
+.nav-list{
+    margin-left: 410px;
+}
+
+
+.article-image{
+    width: 15vw;
+    height: 15vh;
+}
+
+.avatar-name{
+    font-size: 0.9rem;
+    line-height: 0;
+    font-weight: 800;
+}
+
+
+h4{
+    font-weight: bolder;
+}
+
+
