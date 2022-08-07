@@ -1,15 +1,11 @@
-/* subscribe button */
-/* .sub{
-    background-color: orange;
-    color: black;
-    font-weight: 800;
-    border-radius: 5%;
-    border: 1px solid orange;
-} */
 
 .main-article-img{
-    width: 20vw;
-    height: 28vh;
+    width: 65%;
+    height: 30vh;
+    object-fit: cover;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    border-radius: 4%;
   
 }
 
@@ -20,27 +16,22 @@
 }
 
 
-.details{
+/* .details{
     line-height: 0.3rem;
-}
+} */
 
-.details >h5{
+/* .details >h5{
     font-size: 1.0rem;
     font-weight: 800;
-}
+} */
 
-.section{
-    margin-left: -200px;
-}
+
 
 .section> h4{
     font-weight: 600;
     
 }
 
-.nav-list{
-    margin-left: 410px;
-}
 
 
 .article-image{
@@ -57,6 +48,215 @@
 
 h4{
     font-weight: bolder;
+}
+
+.main-content{
+    margin-top: 90px;
+}
+
+
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+   
+
+    .section > h4{
+        margin-top: 10px;
+       
+            font-size: 1.6rem;
+            padding-left: 10px;
+            font-weight: bolder;
+    
+       
+    }
+
+    
+
+   
+
+
+     .main-article-img{
+     
+       width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        margin-top: 20px;
+        border: 2px solid transparent;
+        border-radius: 4%;
+
+    } 
+    .article-image{
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+    .desc br{
+        display: none;
+        
+    }
+
+    .desc{
+        margin-top: 10px;
+    }
+
+    .head{
+        margin-top: 10px;
+    }
+    .head br{
+        display: none;
+    }
+
+    .avatar{
+        width: 10vw;
+        height: 10vh;
+        margin-right:10px;
+    }
+
+    .avatar-name{
+        margin-top: 20px;
+    }
+
+    .btn-sm{
+        width: 70px;
+    }
+   
+
+    }
+
+
+    /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    .section > h4{
+        /* margin-left: 115px; */
+        font-size: 1.0rem;
+        padding-left: 10px;
+        font-weight: bolder;
+    }
+
+    .section > p{
+        font-size: 1.1rem;
+        /* margin-left: 140px; */
+        
+       
+    };
+
+    .avatar-name{
+        margin-top: 3px;
+    }
+
+    .footer-desc{
+        font-size: 0.9rem;
+        padding-left: 4px;
+    }
+
+    .avatar{
+        width: 13vw;
+        height: 10vh;
+        margin-right:10px;
+    }
+    .avatar-name{
+        margin-top: 20px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+    .main-article-img{
+     
+        width: 100%;
+         height: 30vh;
+         object-fit: cover;
+         margin-top: 20px;
+         border: 2px solid transparent;
+         border-radius: 4%;
+ 
+     } 
+
+
+  
+    .section > h4{
+        margin-top: 22px;
+    }
+
+    .article-image{
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        margin-top: 20px;
+        border: 2px solid transparent;
+        border-radius: 4%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .section{
+        margin-left: 0;
+    }
+
+    /* .main-article-img{
+     
+        width: 100%;
+         height: 30vh;
+         object-fit: cover;
+         margin-top: 20px;
+         border: 2px solid transparent;
+         border-radius: 4%;
+ 
+     }  */
+
+    
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .section{
+        margin-left: 0;
+    }
+    
+    .main-article-img{
+     
+        width: 100%;
+         height: 30vh;
+         object-fit: cover;
+         margin-top: 20px;
+         border: 2px solid transparent;
+         border-radius: 4%;
+ 
+     } 
+}
+
+    
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main-article-img{
+        width: 65%;
+    }
+
+
+    .section{
+        margin-left: -120px;
+    }
+
+    .section > h4{
+        margin-top: 22px;
+    }
+
+    .article-image{
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        margin-top: 20px;
+        border: 2px solid transparent;
+        border-radius: 4%;
+    } 
 }
 
 
